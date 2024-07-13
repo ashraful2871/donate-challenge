@@ -247,5 +247,9 @@ hr {
     .homeless-section-container img{
         width: 100%;
     }
+    .homeless-section-container > div > button{
+        width: 240px;
+        margin-bottom: 20px;
+    }
 
 }
