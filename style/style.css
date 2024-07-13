@@ -21,9 +21,10 @@ button {
     height: 56px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
-.btn-container {}
+
 
 .donate-section {
     width: 1890px;
@@ -250,6 +251,7 @@ hr {
     font-size: 16px;
     color: white;
     border: none;
+    cursor: pointer;
 
 }
 
