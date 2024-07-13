@@ -359,4 +359,13 @@ hr {
         width: 100%;
 
     }
+    .subscribe-content input[type="Email"]{
+        height: 24px;
+        width: 138px;
+    }
+    .subscribe-content input[type="button"]{
+        height: 24px;
+        width: 79px;
+        font-size: 11px;
+    }
 }
