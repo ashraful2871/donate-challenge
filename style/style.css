@@ -259,7 +259,7 @@ hr {
     width: 100%;
     height: 177px;
     background-color: #0B0D17;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 }
 .footer-content{
