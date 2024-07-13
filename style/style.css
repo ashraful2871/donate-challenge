@@ -128,7 +128,8 @@ hr {
     /* text-align: center; */
 
 }
-.donate-title{
+
+.donate-title {
     text-align: center;
 }
 
@@ -145,51 +146,105 @@ hr {
     padding: 30px;
     /* border: 2px solid red; */
 }
-.bg1{
+
+.bg1 {
     background-color: #EDF5F6;
 }
-.bg2{
+
+.bg2 {
     background-color: #FFEEEE;
 }
-.bg3{
+
+.bg3 {
     background-color: #FFF4D6;
 }
 
 
 /* homeless section style */
 
-.homeless-section{
+.homeless-section {
     margin-top: 50px;
     /* border: 2px solid red; */
 }
-.homeless-section-container{
+
+.homeless-section-container {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.homeless-section-container > div > h1{
+.homeless-section-container>div>h1 {
     font-size: 45px;
 }
-.homeless-section-container > div > button{
+
+.homeless-section-container>div>button {
     width: 230px;
 }
 
 /* give section style */
-.give-section{
+.give-section {
     /* border: 2px solid red; */
     margin-top: 50px;
 }
 
-.give-section-container{
+.give-section-container {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.give-section-container > div > button{
+
+.give-section-container>div>button {
     width: 230px;
 }
 
+
+/* update section style */
+
+.update-section-container {
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+
+.update-container {
+    text-align: center;
+}
+
+.update-container>h1 {
+    font-size: 45px;
+}
+
+.subscribe-content {
+    /* border: 2px solid red; */
+    margin: 50px auto;
+    width: 809px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #FFF4D6;
+}
+
+.subscribe-content input[type="Email"] {
+    width: 275px;
+    height: 48px;
+    border-radius: 5px 0px 0px 5px;
+    background: rgb(217, 217, 217);
+    border: none;
+
+}
+
+.subscribe-content input[type="button"] {
+    width: 157px;
+    height: 48px;
+    border-radius: 0px 5px 5px 0px;
+    background: rgb(255, 89, 89);
+    font-size: 16px;
+    color: white;
+    border: none;
+
+}
 
 /* small devices responsive */
 
@@ -234,55 +289,74 @@ hr {
         height: 100%;
     }
 
-    hr{
+    hr {
         width: 100%;
     }
+
     .select-amount {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .donate-plan-section{
+
+    .donate-plan-section {
         width: 100%;
-        margin-top:  20px;
+        margin-top: 20px;
     }
-    .donate-card-box{
+
+    .donate-card-box {
         flex-direction: column;
 
     }
-    .donate-plan{
+
+    .donate-plan {
         /* width: 100%; */
         /* height: 100%; */
         height: auto;
         width: auto;
     }
-    .homeless-section{
+
+    .homeless-section {
         width: 100%;
     }
-    .homeless-section-container{
+
+    .homeless-section-container {
         flex-direction: column;
     }
-    .homeless-section-container img{
+
+    .homeless-section-container img {
         width: 100%;
     }
-    .homeless-section-container > div > button{
-        width: 240px;
-        margin-bottom: 20px;
-    }
-    button{
-        font-size: 16px;
-    }
-    .give-section{
-        width: 100%;
-    }
-    .give-section-container{
-        flex-direction: column-reverse;
-    }
-    .give-section-container img{
-        width: 100%;
-    }
-    .give-section-container > div > button{
+
+    .homeless-section-container>div>button {
         width: 240px;
         margin-bottom: 20px;
     }
 
+    button {
+        font-size: 16px;
+    }
+
+    .give-section {
+        width: 100%;
+    }
+
+    .give-section-container {
+        flex-direction: column-reverse;
+    }
+
+    .give-section-container img {
+        width: 100%;
+    }
+
+    .give-section-container>div>button {
+        width: 240px;
+        margin-bottom: 20px;
+    }
+    .update-section-container, .subscribe-content{
+        width: 100%;
+    }
+    .subscribe-content input{
+        width: 100%;
+
+    }
 }
