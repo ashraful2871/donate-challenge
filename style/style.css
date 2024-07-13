@@ -275,7 +275,7 @@ hr {
         width: 100%;
     }
     .give-section-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .give-section-container img{
         width: 100%;
