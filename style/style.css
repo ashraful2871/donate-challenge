@@ -124,7 +124,7 @@ hr {
 /* donate plan section */
 
 .donate-plan-section {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* text-align: center; */
 }
 .donate-title{
@@ -142,7 +142,7 @@ hr {
     width: 360px;
     height: 352px;
     padding: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .bg1{
     background-color: #EDF5F6;
