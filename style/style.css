@@ -160,7 +160,7 @@ hr {
 
 .homeless-section{
     margin-top: 50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .homeless-section-container{
     display: flex;
@@ -170,6 +170,9 @@ hr {
 
 .homeless-section-container > div > h1{
     font-size: 45px;
+}
+.homeless-section-container > div > button{
+    width: 230px;
 }
 /* small devices responsive */
 
