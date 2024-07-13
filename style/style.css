@@ -251,5 +251,8 @@ hr {
         width: 240px;
         margin-bottom: 20px;
     }
+    button{
+        font-size: 16px;
+    }
 
 }
