@@ -126,6 +126,7 @@ hr {
 .donate-plan-section {
     /* border: 2px solid red; */
     /* text-align: center; */
+
 }
 .donate-title{
     text-align: center;
@@ -154,6 +155,22 @@ hr {
     background-color: #FFF4D6;
 }
 
+
+/* homeless section style */
+
+.homeless-section{
+    margin-top: 50px;
+    border: 2px solid red;
+}
+.homeless-section-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.homeless-section-container > div > h1{
+    font-size: 45px;
+}
 /* small devices responsive */
 
 @media screen and (max-width:576px) {
@@ -217,6 +234,15 @@ hr {
         /* height: 100%; */
         height: auto;
         width: auto;
+    }
+    .homeless-section{
+        width: 100%;
+    }
+    .homeless-section-container{
+        flex-direction: column;
+    }
+    .homeless-section-container img{
+        width: 100%;
     }
 
 }
